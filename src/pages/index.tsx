@@ -55,8 +55,8 @@ export default function Home() {
         {
             id: '1235',
             title: 'Geography',
-            start: new Date(2023, 5, 2, 10, 0),
-            end: new Date(2023, 5, 2, 11, 30),
+            start: new Date(2023, 5, 2, 7, 30),
+            end: new Date(2023, 5, 2, 10, 30),
             type: 'lecture',
             group: '243a',
             lecturer: "Artūrs Ligzdīņš",
@@ -149,7 +149,7 @@ export default function Home() {
                         event: CustomDayEventLayout
                     },
                 }}
-                defaultView={Views.MONTH}
+                defaultView={Views.WEEK}
             />
       </>
   )
